@@ -1,10 +1,17 @@
 :root {
     --green: #3ecfae;
-    --greenDark: #184435;
+    --greenDark: #588476;
     --greenLight: #d4fef0;
+    --lima: #EAFFF3;
     --blue: #3f4fed;
+    --yellow: #FFEDD6;
+    --red: #FFD3D3;
 
     --white: #fff;
     --gray: #f8f8f8;
-    --grayDark: #5d6864;
+    --grayDark: #69716F;
+    --grayLight: #A0A2A2;
+    --grayLight2: #F6F7F7;
+
+    --shadow: rgba(30, 70, 62, 0.3)
 }

@@ -4,14 +4,862 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>La House</title>
 </head>
 <body>
-    <h1>
-        este es un texto de prueba
-    </h1>
-    
+    <div class="content">
+        <div class="slider">
+            <div class="slider__menu">
+                <span>
+                    Menu
+                </span>
+                <img src="./img/hamburguesa.svg" alt="Menu La House">
+            </div>
+            <div class="slider__user">
+                <span>
+                    JG
+                </span>
+            </div>
+        </div>
+        <div class="cont">
+            <div class="cont__header">
+                <button class="btn__return">
+                    <i class="material-icons">
+                        chevron_left
+                    </i>
+                </button>
+                <div class="cont__header__info">
+                    <img src="./img/terrazino-cumbres.png" alt="Terrazino Cumbres">
+                    <div class="cont__header__info__text">
+                        <span>
+                            <p class="text__green">
+                                Terrazino Cumbres ·
+                            </p>
+                            <p>
+                                Envigado
+                            </p>
+                        </span>
+                        <small>
+                            Carrera 43A No. 49B Sur - 82
+                        </small>
+                    </div>
+                </div>
+                <div class="cont__header__buttons">
+                    <button class="list">
+                        Reportes
+                    </button>
+                    <button class="list active">
+                        Lista de precios
+                    </button>
+                </div>
+            </div>
+            <div class="cont__list">  
+                <div class="list__blank">
+                    <div class="list__blank__header">
+                        <select name="cars" id="cars">
+                            <option value="selcciona">Selecciona Torre</option>
+                            <option value="torre1">Torre 1</option>
+                            <option value="torre2">Torre 2</option>
+                            <option value="torre3">Torre 3</option>
+                        </select>
+                        <span>
+                            <p>
+                                Fase ·
+                            </p>
+                            <p class="text__green">
+                                Preventa
+                            </p>
+                        </span>
+                        <span>
+                            <p>
+                                Etapa ·
+                            </p>
+                            <p class="text__green">
+                                1
+                            </p>
+                        </span>
+                        <span>
+                            <p>
+                                Aptos ·
+                            </p>
+                            <p class="text__green">
+                                45
+                            </p>
+                        </span>
+                    </div>
+                    <div class="list__blank__cont house__scroll">
+                        <div class="list__blank__cont__buttons">
+                            <button class="rounded">
+                                Estado
+                            </button>
+                            <button class="rounded">
+                                Precio
+                            </button>
+                            <button class="rounded">
+                                Metros
+                            </button>
+                            <button class="rounded">
+                                Habitaciones
+                            </button>
+                            <button class="rounded">
+                                Piso
+                            </button>
+                            <button class="rounded">
+                                Vista
+                            </button>
+                            <button class="rounded">
+                                Tipo de apto
+                            </button>
+                        </div>
+                        <div class="list__floor house__scroll">
+                            <div class="list__floor__number">
+                                <p>
+                                    Piso
+                                </p>
+                                <span>
+                                    16
+                                </span>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Opcionado
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Opcionado
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list__floor house__scroll">
+                            <div class="list__floor__number">
+                                <p>
+                                    Piso
+                                </p>
+                                <span>
+                                    16
+                                </span>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Opcionado
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Opcionado
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list__floor house__scroll">
+                            <div class="list__floor__number">
+                                <p>
+                                    Piso
+                                </p>
+                                <span>
+                                    16
+                                </span>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Opcionado
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Opcionado
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list__floor house__scroll">
+                            <div class="list__floor__number">
+                                <p>
+                                    Piso
+                                </p>
+                                <span>
+                                    16
+                                </span>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Opcionado
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header yellow">
+                                    Opcionado
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header red">
+                                    Vendido
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="list__apto">
+                                <div class="list__apto--header green">
+                                    Disponible
+                                </div>
+                                <div class="list__apto--cont">
+                                    <strong>
+                                        1601
+                                    </strong>
+                                    <p>
+                                        200 m<sup>2</sup>
+                                    </p>
+                                    <span>
+                                        Tipo A
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
 </body>
 </html>
